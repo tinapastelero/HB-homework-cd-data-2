@@ -1,0 +1,32 @@
+RECURSION
+
+1. Recursion is when a function calls itself over and over until the base case is reached.
+
+2. A base case is necessary so that the recursive function will have a defined condition for stopping or exiting.
+
+GRAPHS
+
+1. Graphs are data structures that have nodes connected by edges/arcs with relationships that can be directed or non-directed.
+
+2. Graphs are similar to trees except they can contain loops and cycles (because relationships can go both ways).
+
+3. A bus route can be represented as a graph, with bus stops as nodes. 
+
+DATA STRUCTURE PERFORMANCE
+
+See Excel file.
+
+SORTING
+
+1. Bubble Sort compares two numbers at a time, starting with the first and second numbers, and putting the larger number is position two. Then it compares the numbers in positions two and three, and switches the larger number to position three, and keeps on going on until the end of the list is reached. This process is then repeated starting with the second number on the list, then the third number, and so on until the list is fully sorted.
+
+2. Merge Sort recursively splits a list into two until the lists can no longer be split. As the lists are combined, they are sorted so the combined list is sorted, and the final combined list is sorted.
+
+3. Quick Sort also recursively sorts a list, by selecting a random pivot point and splitting a list into two parts, putting all numbers lower than the pivot to the left of the pivot and all numbers greater than the pivot to the right of the pivot. Each split list is further split along randomly chosen pivots, until the list can no longer be split.
+
+GIT BRANCHING 
+
+1. Git branching would be helpful if the master branch is functioning properly, and you want to add a new feature without impacting the existing mater branch.
+
+2. A pull request on Github allows a user to tell a project organizer about pushed changes a user has made to a repository on Github before the user's changes are merged into the repository.
+
