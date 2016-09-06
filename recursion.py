@@ -44,7 +44,7 @@ def print_all_tree_data(tree):
         3
 
     """
-    if tree.children == None:
+    if tree.children is None:
         return
 
     print tree.data
@@ -91,8 +91,6 @@ def num_nodes(tree):
 
     for child in tree.children:
         return 2 + num_nodes(child)
-
-
 
 
 #####################################################################
